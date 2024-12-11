@@ -1,0 +1,18 @@
+.header{
+    width: 1344px;
+    height: 96px;
+    padding-top: 24px;
+    gap:8px;
+
+}
+.container{
+    display: flex;
+    width: 1080px;
+    height: 72px;
+    border-radius: 16px;
+    border: 1px;
+    justify-content: space-between;
+    padding: 24px 32px;
+    background-color:#2419F3;
+    ;
+}
