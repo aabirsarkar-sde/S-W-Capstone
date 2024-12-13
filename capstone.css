@@ -191,6 +191,27 @@ text-decoration-skip-ink: none;
     width: 100%;
     margin-top: 40px;
 }
+
+
+.projects button{
+    background-color: white;
+    width: 151px;
+    height: 48px;
+    padding: 12px 24px 12px 24px;
+    gap: 0px;
+    border-radius: 8px 0px 0px 0px;
+    opacity: 0px;
+
+    color: black;
+    font-family: 'Archivo Narrow';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
 .work h1{
     color:white;
     font-family: 'DotGothic16';
