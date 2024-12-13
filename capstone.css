@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color:white;
+    color: black;
+}
+
+.head-main{
+    height: 10vh;
+    margin-bottom: 9vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 2vw;
+}
+
+.head1{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2.5vw;
+    align-items: center;
+    background: #2419F30F;
+
+   
+    width: 70vw;
+    border-radius: 10px;
+    line-height: 2;
+}
+
+.head2,.head4{
+    display: flex;
+    gap: 2vw;
+    font-family: 'Archivo';
+}
+.head3{
+    font-family: 'DotGothic16';
+    
+}
+
+.landing_page{
+    text-align: center;
+    font-size: 50px;
+}
+
+.landing_page h1{
+    margin-bottom: 2vw;
+    font-family: 'DotGothic16';
+}
+
+.landing_page img{
+    width: 85vw;
+    margin-bottom: 10vw;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-bottom: 7vw;
+    height: 130vh;
+}
+
+.project{
+    margin: 0 2vw;
+    
+}
+.project img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.i{
+    height: 32vh;
+    width: 41vw;
+}
+.project h3 , .project p {
+    font-family: Archivo;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;  
+    
+
+    font-weight: 200;
+
+    
+}
+.project p {
+    
+    font-size: 17px;
+
+
+}
+
+
+.caption{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10vw;
+
+    
+}
+
+.caption h3 {
+    width: 60vw;
+    font-family: DotGothic16;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.list{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    padding: 4vw;
+    font-family: 'Archivo';
+
+
+}
+.list1 h4{
+    
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+    font-family: 'DotGothic16';
+
+}
+.list2 ul, .list3 ul {
+    font-family: 'Archivo';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    
+
+    list-style-type: none;
+
+}
+
+
+
+.footer{
+margin: 4em 4vw 18vh;
+text-align: center;
+
+}
+.footer h3{
+    font-family: 'DotGothic16';
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+
+
+
+}
+
+#form{
+
+font-family: 'Archivo';
+font-size: 15px;
+font-weight: 400;
+line-height: 20px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+
+.box{
+display: flex;
+justify-content: center;
+}
+
+
+
+.footer-box{
+
+
+width: 56px;
+height: 64px;
+padding: 8px 16px 8px 16px;
+gap: 0px;
+border-radius: 8px 0px 0px 0px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+
+}
+
+
+
+input[type='submit']{
+    
+
+   
+
+padding: 8px 16px 8px 16px;
+gap: 0px;
+border-radius: 8px 0px 0px 0px;
+opacity: 0px;
+
+background: rgba(36, 25, 243, 1);
+
+color: white;
+width: 20rem;
+border-radius: 8px;
+line-height: 1.5;
+cursor: pointer;
+
+
+}
+
+
+
+#skip{
+    color: rgba(36, 25, 243, 1);
+    
+
+
+font-size: small;
+background: none;
+border: none;
+cursor: pointer;
+}
+
+
+
+.page-footer{
+display: flex;
+justify-content: space-between;
+margin: 2vh 1vw 1vh 1vw;
+
+}
+#follow{
+    border: 1px solid black;
+    font-family: 'Archivo Narrow';
+    
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    text-decoration-skip-ink: none;
+
+    
+    
+    border-radius: 5px;
+    padding: 10px;
+    font-size: medium;
+    cursor: pointer;
+}
+
+#future{
+    font-family: 'DotGothic16';
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
