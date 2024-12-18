@@ -307,3 +307,15 @@ margin: 2vh 1vw 1vh 1vw;
     text-decoration-skip-ink: none;
 
 }
+
+.exploreimg{
+    width: 100%;
+    max-height: 700px;
+}
+
+.explorechild{
+    position: absolute;
+    left: 96px;
+    padding-bottom: 48px;
+    transform: translate(0px,-200px);
+}
