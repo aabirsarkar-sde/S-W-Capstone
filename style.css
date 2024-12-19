@@ -20,7 +20,7 @@ body{
 
 .head1{
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     padding: 0 2.5vw;
     align-items: center;
     background: #2419F30F;
@@ -38,6 +38,18 @@ body{
 }
 .head3{
     font-family: 'DotGothic16';
+    
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 42px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    
+    padding-right: 155px;
+    margin-bottom: 2px;
+
     
 }
 
