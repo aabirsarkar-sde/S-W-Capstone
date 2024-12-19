@@ -206,11 +206,17 @@ text-decoration-skip-ink: none;
 }
 .touch{
     display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-top: 5rem;
     padding: 48px 48px 48px 48px;
     gap: 96px;
     opacity: 0px;
     margin-bottom: 10rem;
     
+}
+.get{
+    margin-left: 48px;
 }
 .get h1{
     font-family: 'DotGothic16';
@@ -222,6 +228,10 @@ text-decoration-skip-ink: none;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
 
+}
+.collab{
+    width:634px;
+    flex-wrap: wrap;
 }
 .collab p{
     font-family: 'Archivo';
