@@ -61,6 +61,7 @@ body{
 .landing_page h1{
     margin-bottom: 2vw;
     font-family: 'DotGothic16';
+    
 }
 
 .landing_page img{
@@ -261,6 +262,7 @@ text-decoration-skip-ink: none;
 .box{
 display: flex;
 justify-content: center;
+margin: 1rem;
 }
 
 
@@ -268,13 +270,14 @@ justify-content: center;
 .footer-box{
 
 
-width: 56px;
-height: 64px;
-padding: 8px 16px 8px 16px;
-gap: 0px;
-border-radius: 8px 0px 0px 0px;
-border: 1px 0px 0px 0px;
-opacity: 0px;
+    width: 56px;
+    height: 64px;
+    padding: 8px 16px 8px 16px;
+    gap: 0px;
+    border-radius: 8px 0px 0px 0px;
+    border: 1px solid black;
+    opacity: 0px;
+
 
 }
 
