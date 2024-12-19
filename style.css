@@ -179,6 +179,7 @@ body{
     margin: 4em 4vw 18vh;
     text-align: center;
     margin-bottom: 20rem;
+
 }
 .footer h3{
     font-family: 'DotGothic16';
@@ -197,6 +198,7 @@ body{
 }
 .footer p{
     font-family: 'Archivo';
+
     font-size: 15px;
     font-weight: 400;
     line-height: 20px;
@@ -260,23 +262,35 @@ text-decoration-skip-ink: none;
 }
 
 .box{
-display: flex;
-justify-content: center;
-margin: 1rem;
+    display: flex;
+    justify-content: center;
+    margin-left: 30rem;
+    margin-top: 2rem;
+    width: 400px;
+    height: 106px;
+    gap: 32px;
+    opacity: 0px;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+
 }
 
 
 
 .footer-box{
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 
     width: 56px;
-    height: 64px;
+    height: 48px;
     padding: 8px 16px 8px 16px;
     gap: 0px;
-    border-radius: 8px 0px 0px 0px;
+    border-radius: 10%;
     border: 1px solid black;
     opacity: 0px;
+    margin-bottom: 0;
 
 
 }
@@ -287,7 +301,7 @@ input[type='submit']{
     
 
    
-
+    margin-top: 0;
     padding: 8px 16px 8px 16px;
     gap: 0px;
     border-radius: 8px 0px 0px 0px;
