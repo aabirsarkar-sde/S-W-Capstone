@@ -180,6 +180,10 @@ body{
 
 
 .footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 4em 4vw 18vh;
     text-align: center;
     margin-bottom: 20rem;
@@ -268,8 +272,8 @@ text-decoration-skip-ink: none;
 .box{
     display: flex;
     justify-content: center;
-    margin-left: 30rem;
-    margin-top: 2rem;
+    
+    
     width: 400px;
     height: 106px;
     gap: 32px;
