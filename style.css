@@ -309,6 +309,7 @@ text-decoration-skip-ink: none;
 
 
 input[type='submit']{
+    transition:all 0.8s ease-in-out;
     
 
    
@@ -330,6 +331,12 @@ input[type='submit']{
 
 
 }
+input[type='submit']:hover{
+    background-color: red;
+    box-shadow:grey;
+    transform: scale(1.1);
+}
+
 
 
 
@@ -361,13 +368,21 @@ margin: 2vh 2vw 2vh 2vw;
     line-height: 24px;
     text-align: left;
     text-decoration-skip-ink: none;
-
     
+
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
     
     border-radius: 5px;
     padding: 10px;
     font-size: medium;
     cursor: pointer;
+}
+#follow:hover{
+    transform: scale(1.1);
+    color:orange;
+
 }
 
 #future{
@@ -435,7 +450,7 @@ margin: 2vh 2vw 2vh 2vw;
 }
 #project-button{
     font-family: 'Archivo Narrow';
-    
+    cursor: pointer;
     border-radius: 8px;
     width: 180px;
     height: 50px;
