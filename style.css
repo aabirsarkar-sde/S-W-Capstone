@@ -21,6 +21,7 @@ body{
 
 .head1{
     display: flex;
+    flex-wrap: wrap;
     justify-content:space-between;
     padding: 0 2.5vw;
     align-items: center;
@@ -405,7 +406,7 @@ margin: 2vh 2vw 2vh 2vw;
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-    width: 900px;
+   
     height: 40px;
     gap: 0px;
     opacity: 0px;
@@ -424,7 +425,7 @@ margin: 2vh 2vw 2vh 2vw;
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-    width: 900px;
+
     height: 32px;
     gap: 0px;
     opacity: 0px;
